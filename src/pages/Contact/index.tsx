@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "../../components/Footer";
-import SocialIcons from "../../components/SocialIcons";
-import SectionLayout from "../../layout/SectionLayout";
+
+import { SectionLayout } from "@/layout";
+import { Footer, SocialIcons } from "@components";
 
 const Contact = () => {
   return (

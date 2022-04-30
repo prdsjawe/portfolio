@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Toggle from "../Toggle";
-
-import { ReactComponent as Logo } from "../../images/Logo.svg";
-import { paths } from "../../config/paths";
-import { capitalize } from "../../utils/commons";
-import { ThemeContext } from "../../layout/ThemeContext";
+import { Logo } from "@/images";
+import { Toggle } from "@components";
+import { paths } from "@/config/paths";
+import { capitalize } from "@/utils/commons";
+import { ThemeContext } from "@/layout/ThemeContext";
 
 const Navigation = () => {
   const { setTheme } = React.useContext(ThemeContext);

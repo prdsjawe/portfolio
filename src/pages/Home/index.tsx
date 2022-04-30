@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../../components/Button";
-import Footer from "../../components/Footer";
-import SectionLayout from "../../layout/SectionLayout";
+
+import { SectionLayout } from "@/layout";
+import { Button, Footer } from "@components";
 
 const Home = () => {
   return (

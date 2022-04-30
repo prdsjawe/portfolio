@@ -1,7 +1,7 @@
 import React from "react";
-import Code from "../../components/Code";
-import Footer from "../../components/Footer";
-import SectionLayout from "../../layout/SectionLayout";
+
+import { SectionLayout } from "@/layout";
+import { Footer, Code } from "@components";
 
 const About = () => {
   return (

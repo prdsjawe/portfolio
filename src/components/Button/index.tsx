@@ -12,7 +12,7 @@ interface IButton {
   children: React.ReactNode;
 }
 
-const Button: React.FC<IButton> = ({ to, type, children }) => {
+const Button: React.FunctionComponent<IButton> = ({ to, type, children }) => {
   const checkButtonType = (type: string): string => {
     if (type === TYPES.PRIMARY) {
       return "bg-gradient-to-r from-blue-left to-blue-right text-white";

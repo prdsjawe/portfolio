@@ -1,10 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import BaseLayout from "./layout/BaseLayout";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+
+import { BaseLayout } from "@/layout";
+import { Home, About, Contact, Projects } from "@pages";
 
 const App = () => {
   return (

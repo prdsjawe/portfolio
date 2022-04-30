@@ -6,7 +6,7 @@ interface IToggle {
   onChange: (state: boolean) => void;
 }
 
-const Toggle: React.FC<IToggle> = ({ onChange }) => {
+const Toggle: React.FunctionComponent<IToggle> = ({ onChange }) => {
   const [active, setActive] = useState(false);
 
   const onToggleChange = () => {

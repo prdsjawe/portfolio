@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import React from "react";
-import NumberLabel from "../../components/NumberLabel";
+
+import { NumberLabel } from "@components";
 
 interface ISectionLayout {
   className?: string;
@@ -8,7 +9,7 @@ interface ISectionLayout {
   children: React.ReactNode;
   isCenterAligned?: boolean;
 }
-const SectionLayout: React.FC<ISectionLayout> = ({
+const SectionLayout: React.FunctionComponent<ISectionLayout> = ({
   children,
   className,
   sectionNumber,
